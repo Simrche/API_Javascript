@@ -73,7 +73,7 @@ app.delete('/serie/:id', (req, res)=>{
       return
     }
     res.send('Serie deleted')
-    console.log(`Dog with ${$req.params.id} is now deleted`)
+    console.log(`Serie with ${$req.params.id} is now deleted`)
   })
 })
 
